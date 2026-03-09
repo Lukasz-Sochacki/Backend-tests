@@ -7,5 +7,7 @@
     "chai": "4.2.0",
     "mocha": "6.2.1"
   },
-  "test": "mocha --watch \"./{,!(node_modules|client)/**/}*.test.js\""
+  "scripts": {
+    "test": "mocha --watch \"./{,!(node_modules|client)/**/}*.test.js\""
+  }
 }
