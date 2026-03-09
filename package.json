@@ -1,0 +1,11 @@
+{
+  "name": "modul-29-Testy-jednostkowe-w-backendzie",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "chai": "4.2.0",
+    "mocha": "6.2.1"
+  },
+  "test": "mocha --watch \"./{,!(node_modules|client)/**/}*.test.js\""
+}
